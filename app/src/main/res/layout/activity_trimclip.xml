@@ -1,68 +1,104 @@
-<RelativeLayout
-  xmlns:android="http://schemas.android.com/apk/res/android"
-  android:id="@+id/rootview"
-  android:layout_width="match_parent"
-  android:layout_height="match_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rootview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
   <RelativeLayout
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_centerInParent="true">
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerInParent="true"
+      android:padding="4dp">
 
     <ImageView
-      android:id="@+id/airplane"
-      android:layout_width="100dp"
-      android:layout_height="100dp"
-      android:layout_alignParentStart="true"
-      android:layout_alignParentTop="true"
-      android:contentDescription="@null"
-      android:padding="8dp"
-      android:scaleType="fitCenter"
-      android:src="@drawable/asl_trimclip_airplane"/>
+        android:id="@+id/airplane"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@null"
+        android:padding="8dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/asl_trimclip_airplane" />
 
     <ImageView
-      android:id="@+id/eye"
-      android:layout_width="100dp"
-      android:layout_height="100dp"
-      android:layout_alignTop="@id/airplane"
-      android:layout_toEndOf="@id/airplane"
-      android:contentDescription="@null"
-      android:padding="8dp"
-      android:scaleType="fitCenter"
-      android:src="@drawable/asl_trimclip_eye"/>
+        android:id="@+id/eye"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignTop="@id/airplane"
+        android:layout_toEndOf="@id/airplane"
+        android:contentDescription="@null"
+        android:padding="8dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/asl_trimclip_eye" />
 
     <ImageView
-      android:id="@+id/flashlight"
-      android:layout_width="100dp"
-      android:layout_height="100dp"
-      android:layout_alignTop="@id/eye"
-      android:layout_toEndOf="@id/eye"
-      android:contentDescription="@null"
-      android:padding="8dp"
-      android:scaleType="fitCenter"
-      android:src="@drawable/asl_trimclip_flashlight"/>
+        android:id="@+id/flashlight"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignTop="@id/eye"
+        android:layout_toEndOf="@id/eye"
+        android:contentDescription="@null"
+        android:padding="8dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/asl_trimclip_flashlight" />
 
     <ImageView
-      android:id="@+id/heart"
-      android:layout_width="150dp"
-      android:layout_height="150dp"
-      android:layout_alignParentStart="true"
-      android:layout_below="@id/airplane"
-      android:contentDescription="@null"
-      android:padding="8dp"
-      android:scaleType="fitCenter"
-      android:src="@drawable/asl_trimclip_heart"/>
+        android:id="@+id/heart"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/airplane"
+        android:contentDescription="@null"
+        android:padding="8dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/asl_trimclip_heart" />
 
     <ImageView
-      android:id="@+id/searchback"
-      android:layout_width="150dp"
-      android:layout_height="150dp"
-      android:layout_alignTop="@id/heart"
-      android:layout_toEndOf="@id/heart"
-      android:contentDescription="@null"
-      android:padding="8dp"
-      android:scaleType="fitCenter"
-      android:src="@drawable/asl_trimclip_searchback"/>
+        android:id="@+id/searchback"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignTop="@id/heart"
+        android:layout_toEndOf="@id/heart"
+        android:contentDescription="@null"
+        android:padding="8dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/asl_trimclip_searchback" />
+
+    <ImageView
+        android:id="@+id/screen"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignTop="@id/heart"
+        android:layout_toEndOf="@id/searchback"
+        android:contentDescription="@null"
+        android:padding="8dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/asl_screen" />
+
+
+    <ImageView
+        android:id="@+id/searchClock"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/heart"
+        android:contentDescription="@null"
+        android:padding="8dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/avd_search_to_clock" />
+
+    <ImageView
+        android:id="@+id/readHeart"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_toEndOf="@+id/searchClock"
+        android:layout_below="@id/heart"
+        android:contentDescription="@null"
+        android:padding="8dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/avd_red_heart" />
+
   </RelativeLayout>
 
 </RelativeLayout>

@@ -1,8 +1,8 @@
-<RelativeLayout
-  xmlns:android="http://schemas.android.com/apk/res/android"
-  android:layout_width="match_parent"
-  android:layout_height="match_parent"
-  android:padding="16dp">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp">
 
   <LinearLayout
     android:layout_width="match_parent"
@@ -18,7 +18,7 @@
       android:layout_marginBottom="64dp"
       android:contentDescription="@null"
       android:scaleType="fitCenter"
-      android:src="@drawable/avd_progress_indeterminate_circular"/>
+      app:srcCompat="@drawable/avd_progress_indeterminate_circular"/>
 
     <ImageView
       android:id="@+id/horizontal_indeterminate_progress"
@@ -26,6 +26,17 @@
       android:layout_height="wrap_content"
       android:contentDescription="@null"
       android:scaleType="fitCenter"
-      android:src="@drawable/avd_progress_indeterminate_horizontal"/>
+      app:srcCompat="@drawable/avd_progress_indeterminate_horizontal"/>
+
+    <ImageView
+        android:id="@+id/heart_beat_iv"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:contentDescription="@null"
+        android:scaleType="fitCenter"
+        android:layout_gravity="center_horizontal"
+        app:srcCompat="@drawable/avd_heard_beat"
+        />
+
   </LinearLayout>
 </RelativeLayout>

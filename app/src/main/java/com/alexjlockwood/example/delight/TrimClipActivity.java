@@ -1,6 +1,11 @@
 package com.alexjlockwood.example.delight;
 
+import android.graphics.drawable.Animatable;
+import android.graphics.drawable.AnimatedVectorDrawable;
+import android.graphics.drawable.Drawable;
+import android.os.Build;
 import android.os.Bundle;
+import android.support.graphics.drawable.AnimatedVectorDrawableCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.ImageView;
 
@@ -15,6 +20,11 @@ public class TrimClipActivity extends AppCompatActivity {
   @BindView(R.id.flashlight) ImageView flashlightView;
   @BindView(R.id.searchback) ImageView searchbackView;
   @BindView(R.id.heart) ImageView heartView;
+  @BindView(R.id.screen) ImageView screenView;
+  @BindView(R.id.searchClock) ImageView searchClockView;
+  @BindView(R.id.readHeart) ImageView readHeart;
+
+
   private boolean isChecked;
 
   @Override
@@ -33,5 +43,9 @@ public class TrimClipActivity extends AppCompatActivity {
     flashlightView.setImageState(stateSet, true);
     searchbackView.setImageState(stateSet, true);
     heartView.setImageState(stateSet, true);
+    screenView.setImageState(stateSet, true);
+
+  ((Animatable)searchClockView.getDrawable()).start();
+  ((Animatable)readHeart.getDrawable()).start();
   }
 }
