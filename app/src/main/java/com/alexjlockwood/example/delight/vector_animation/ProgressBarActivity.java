@@ -1,4 +1,4 @@
-package com.alexjlockwood.example.delight;
+package com.alexjlockwood.example.delight.vector_animation;
 
 import android.graphics.drawable.Animatable;
 import android.graphics.drawable.Animatable2;
@@ -12,6 +12,8 @@ import androidx.vectordrawable.graphics.drawable.Animatable2Compat;
 import androidx.vectordrawable.graphics.drawable.AnimatedVectorDrawableCompat;
 import androidx.appcompat.app.AppCompatActivity;
 import android.widget.ImageView;
+
+import com.alexjlockwood.example.delight.R;
 
 public class ProgressBarActivity extends AppCompatActivity {
 

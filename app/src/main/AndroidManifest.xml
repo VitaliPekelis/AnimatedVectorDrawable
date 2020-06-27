@@ -1,72 +1,83 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.alexjlockwood.example.delight">
+    package="com.alexjlockwood.example.delight">
 
-  <application
-    android:allowBackup="true"
-    android:icon="@mipmap/ic_launcher"
-    android:label="@string/app_name"
-    android:theme="@style/AppTheme">
-    <activity
-      android:name="com.alexjlockwood.example.delight.MainActivity"
-      android:label="@string/app_name">
-      <intent-filter>
-        <action android:name="android.intent.action.MAIN"/>
-        <category android:name="android.intent.category.LAUNCHER"/>
-      </intent-filter>
-    </activity>
-    <activity
-      android:name="com.alexjlockwood.example.delight.AnimalsActivity"
-      android:label="@string/app_name"
-      android:theme="@style/AppThemeNoActionBar"/>
-    <activity
-      android:name="com.alexjlockwood.example.delight.PlayPauseStopActivity"
-      android:label="@string/app_name"
-      android:theme="@style/AppThemeNoActionBar"/>
-    <activity
-      android:name="com.alexjlockwood.example.delight.TrimClipActivity"
-      android:label="@string/app_name"
-      android:theme="@style/AppThemeNoActionBar"/>
-    <activity
-      android:name="com.alexjlockwood.example.delight.FingerprintActivity"
-      android:label="@string/app_name"
-      android:theme="@style/AppThemeNoActionBar"/>
-    <activity
-      android:name="com.alexjlockwood.example.delight.ProgressBarActivity"
-      android:label="@string/app_name"
-      android:theme="@style/AppThemeNoActionBar"/>
-    <activity
-      android:name="com.alexjlockwood.example.delight.ClockActivity"
-      android:label="@string/app_name"
-      android:theme="@style/AppThemeNoActionBar"/>
-    <activity
-      android:name="com.alexjlockwood.example.delight.PathMorphActivity"
-      android:label="@string/app_name"
-      android:theme="@style/AppThemeNoActionBar"/>
-    <activity
-      android:name="com.alexjlockwood.example.delight.HandwritingActivity"
-      android:label="@string/app_name"
-      android:theme="@style/AppThemeNoActionBar"/>
-    <activity
-      android:name="com.alexjlockwood.example.delight.CheckableActivity"
-      android:label="@string/app_name"
-      android:theme="@style/AppThemeNoActionBar"/>
-    <activity
-      android:name="com.alexjlockwood.example.delight.CurvedMotionActivity"
-      android:label="@string/app_name"
-      android:theme="@style/AppThemeNoActionBar"/>
-    <activity
-      android:name="com.alexjlockwood.example.delight.CountdownActivity"
-      android:label="@string/app_name"
-      android:theme="@style/AppThemeNoActionBar"/>
-    <activity
-      android:name="com.alexjlockwood.example.delight.MusicActivity"
-      android:label="@string/app_name"
-      android:theme="@style/AppThemeNoActionBar"/>
-    <activity
-      android:name="com.alexjlockwood.example.delight.DownloadingActivity"
-      android:label="@string/app_name"
-      android:theme="@style/AppThemeNoActionBar"/>
-  </application>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/vector_animation"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".vector_animation.VectorDrawableMainActivity"
+            android:label="@string/vector_animation"
+            android:theme="@style/AppThemeNoActionBar" />
+        <activity
+            android:name=".vector_animation.AnimalsActivity"
+            android:label="@string/vector_animation"
+            android:theme="@style/AppThemeNoActionBar" />
+        <activity
+            android:name=".vector_animation.PlayPauseStopActivity"
+            android:label="@string/vector_animation"
+            android:theme="@style/AppThemeNoActionBar" />
+        <activity
+            android:name=".vector_animation.TrimClipActivity"
+            android:label="@string/vector_animation"
+            android:theme="@style/AppThemeNoActionBar" />
+        <activity
+            android:name=".vector_animation.FingerprintActivity"
+            android:label="@string/vector_animation"
+            android:theme="@style/AppThemeNoActionBar" />
+        <activity
+            android:name=".vector_animation.ProgressBarActivity"
+            android:label="@string/vector_animation"
+            android:theme="@style/AppThemeNoActionBar" />
+        <activity
+            android:name=".vector_animation.ClockActivity"
+            android:label="@string/vector_animation"
+            android:theme="@style/AppThemeNoActionBar" />
+        <activity
+            android:name=".vector_animation.PathMorphActivity"
+            android:label="@string/vector_animation"
+            android:theme="@style/AppThemeNoActionBar" />
+        <activity
+            android:name=".vector_animation.HandwritingActivity"
+            android:label="@string/vector_animation"
+            android:theme="@style/AppThemeNoActionBar" />
+        <activity
+            android:name=".vector_animation.CheckableActivity"
+            android:label="@string/vector_animation"
+            android:theme="@style/AppThemeNoActionBar" />
+        <activity
+            android:name=".vector_animation.CurvedMotionActivity"
+            android:label="@string/vector_animation"
+            android:theme="@style/AppThemeNoActionBar" />
+        <activity
+            android:name=".vector_animation.CountdownActivity"
+            android:label="@string/vector_animation"
+            android:theme="@style/AppThemeNoActionBar" />
+        <activity
+            android:name=".vector_animation.MusicActivity"
+            android:label="@string/vector_animation"
+            android:theme="@style/AppThemeNoActionBar" />
+        <activity
+            android:name=".vector_animation.DownloadingActivity"
+            android:label="@string/vector_animation"
+            android:theme="@style/AppThemeNoActionBar" />
+
+
+        <activity android:name=".motionlayout.MotionLayoutAnimationActivity"
+            android:label="@string/motion_animation" />
+
+    </application>
 
 </manifest>

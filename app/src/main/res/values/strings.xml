@@ -1,27 +1,30 @@
 <resources>
-
-  <string name="app_name">Vector Animation</string>
-  <string name="play">Play</string>
-  <string name="pause">Pause</string>
-  <string name="stop">Stop</string>
-  <string name="on">On</string>
-  <string name="off">Off</string>
-  <string name="error">Error</string>
-  <string name="trimclip">Trims, clips, &amp; fills</string>
-  <string name="play_pause_stop">Play, pause, &amp; stop</string>
-  <string name="fingerprint">Fingerprint</string>
-  <string name="progressbar">Progress bars</string>
-  <string name="handwriting">Handwriting</string>
-  <string name="checkable">Checkable</string>
-  <string name="curvedmotion">Curved motion</string>
-  <string name="clock">Clocks</string>
-  <string name="countdown">Countdown</string>
-  <string name="pathmorph">Path morphing</string>
-  <string name="music">Music</string>
-  <string name="downloading">Downloading</string>
-  <string name="animals">Animals</string>
-  <string name="hippo_text">Hippo</string>
-  <string name="buffalo_text">Buffalo</string>
-  <string name="elephant_text">Elephant</string>
+    <string name="app_name">Animations</string>
+    <string name="vector_animation">Vector Animation</string>
+    <string name="motion_animation">Motion Layout Animation</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="stop">Stop</string>
+    <string name="on">On</string>
+    <string name="off">Off</string>
+    <string name="error">Error</string>
+    <string name="trimclip">Trims, clips, &amp; fills</string>
+    <string name="play_pause_stop">Play, pause, &amp; stop</string>
+    <string name="fingerprint">Fingerprint</string>
+    <string name="progressbar">Progress bars</string>
+    <string name="handwriting">Handwriting</string>
+    <string name="checkable">Checkable</string>
+    <string name="curvedmotion">Curved motion</string>
+    <string name="clock">Clocks</string>
+    <string name="countdown">Countdown</string>
+    <string name="pathmorph">Path morphing</string>
+    <string name="music">Music</string>
+    <string name="downloading">Downloading</string>
+    <string name="animals">Animals</string>
+    <string name="hippo_text">Hippo</string>
+    <string name="buffalo_text">Buffalo</string>
+    <string name="elephant_text">Elephant</string>
+    <string name="vector_drawable_animation">Vector Drawable Animation</string>
+    <string name="motion_layout_animation">Motion Layout Animation</string>
 
 </resources>

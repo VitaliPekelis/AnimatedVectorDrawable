@@ -1,4 +1,4 @@
-package com.alexjlockwood.example.delight;
+package com.alexjlockwood.example.delight.vector_animation;
 
 import android.graphics.drawable.Animatable;
 import android.graphics.drawable.Drawable;
@@ -7,6 +7,8 @@ import androidx.annotation.DrawableRes;
 import androidx.vectordrawable.graphics.drawable.AnimatedVectorDrawableCompat;
 import androidx.appcompat.app.AppCompatActivity;
 import android.widget.ImageView;
+
+import com.alexjlockwood.example.delight.R;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;

@@ -1,9 +1,11 @@
-package com.alexjlockwood.example.delight;
+package com.alexjlockwood.example.delight.vector_animation;
 
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ImageView;
+
+import com.alexjlockwood.example.delight.R;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
