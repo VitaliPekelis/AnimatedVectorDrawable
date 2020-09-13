@@ -73,10 +73,12 @@
             android:name=".vector_animation.DownloadingActivity"
             android:label="@string/vector_animation"
             android:theme="@style/AppThemeNoActionBar" />
-
-
-        <activity android:name=".motionlayout.MotionLayoutAnimationActivity"
+        <activity
+            android:name=".motionlayout.MotionLayoutAnimationActivity"
             android:label="@string/motion_animation" />
+
+        <activity android:name=".lottie.LottieAnimationActivity"
+            android:label="@string/lottie_animation"/>
 
     </application>
 
