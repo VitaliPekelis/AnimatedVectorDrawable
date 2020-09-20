@@ -9,7 +9,7 @@ import butterknife.ButterKnife
 import butterknife.OnClick
 import com.alexjlockwood.example.delight.*
 
-class VectorDrawableMainActivity : AppCompatActivity() {
+class VectorDrawableMainActivity : AppCompatActivity() ,View.OnClickListener{
 
     private val map = SparseArray<Class<*>>()
 
@@ -25,6 +25,7 @@ class VectorDrawableMainActivity : AppCompatActivity() {
         map.put(R.id.music, MusicActivity::class.java)
         map.put(R.id.pathmorph, PathMorphActivity::class.java)
         map.put(R.id.playpausestop, PlayPauseStopActivity::class.java)
+        map.put(R.id.shimmer, ShimmerActivity::class.java)
         map.put(R.id.progressbar, ProgressBarActivity::class.java)
         map.put(R.id.trimclip, TrimClipActivity::class.java)
     }
@@ -32,11 +33,10 @@ class VectorDrawableMainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_vector_drawable_main)
-        ButterKnife.bind(this)
     }
 
-    @OnClick(R.id.animals, R.id.checkable, R.id.clock, R.id.countdown, R.id.curvedmotion, R.id.downloading, R.id.fingerprint, R.id.handwriting, R.id.music, R.id.pathmorph, R.id.playpausestop, R.id.progressbar, R.id.trimclip)
-    fun onListItemClick(view: View) {
+
+    override fun onClick(view: View) {
         startActivity(Intent(this, map[view.id]))
     }
 }

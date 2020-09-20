@@ -1,0 +1,34 @@
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt">
+    <target android:name="group">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:duration="1000"
+                android:interpolator="@android:interpolator/linear"
+                android:propertyName="translateX"
+                android:valueFrom="-250"
+                android:valueTo="250"
+                android:repeatCount="-1"
+                android:repeatMode="reverse"
+                android:valueType="floatType" />
+        </aapt:attr>
+    </target>
+    <aapt:attr name="android:drawable">
+        <vector android:name="vector" android:width="274dp" android:height="253dp"
+            android:viewportWidth="274" android:viewportHeight="253">
+            <group android:name="group">
+                <path android:name="path" android:pathData="M 63 0 L 211 0 L 211 253 L 63 253 Z">
+                    <aapt:attr name="android:fillColor">
+                        <gradient android:endX="211" android:endY="126.5" android:startX="63"
+                            android:startY="126.5" android:type="linear">
+                            <item android:color="#002B4A75" android:offset="0" />
+                            <item android:color="#FF305282" android:offset="0.498" />
+                            <item android:color="#FF305282" android:offset="0.522" />
+                            <item android:color="#002B4A75" android:offset="1" />
+                        </gradient>
+                    </aapt:attr>
+                </path>
+            </group>
+        </vector>
+    </aapt:attr>
+</animated-vector>

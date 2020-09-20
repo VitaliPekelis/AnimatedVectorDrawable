@@ -95,6 +95,13 @@
       android:text="@string/progressbar"/>
 
     <TextView
+        android:id="@+id/shimmer"
+        style="@style/MainActivityListItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/shimmer"/>
+
+    <TextView
       android:id="@+id/trimclip"
       style="@style/MainActivityListItem"
       android:layout_width="match_parent"

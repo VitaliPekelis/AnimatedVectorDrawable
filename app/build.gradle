@@ -32,6 +32,7 @@ android {
 ext {
     butterKnifeVersion = '10.0.0'
     lottieVersion = "3.4.2"
+    material_version = "1.2.1"
 }
 
 dependencies {
@@ -50,4 +51,6 @@ dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
 
     implementation "com.airbnb.android:lottie:$lottieVersion"
+
+    implementation "com.google.android.material:material:$material_version"
 }

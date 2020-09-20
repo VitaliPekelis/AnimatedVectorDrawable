@@ -27,5 +27,6 @@
     <string name="vector_drawable_animation">Vector Drawable Animation</string>
     <string name="motion_layout_animation">Motion Layout Animation</string>
     <string name="lottie_animation">Lottie Animation</string>
+    <string name="shimmer">Shimmer Effect</string>
 
 </resources>

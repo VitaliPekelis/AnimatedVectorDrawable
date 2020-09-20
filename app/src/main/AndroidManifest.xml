@@ -7,7 +7,7 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/vector_animation"
         android:theme="@style/AppTheme">
-
+        <activity android:name=".vector_animation.ShimmerActivity"></activity>
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name">
@@ -76,10 +76,9 @@
         <activity
             android:name=".motionlayout.MotionLayoutAnimationActivity"
             android:label="@string/motion_animation" />
-
-        <activity android:name=".lottie.LottieAnimationActivity"
-            android:label="@string/lottie_animation"/>
-
+        <activity
+            android:name=".lottie.LottieAnimationActivity"
+            android:label="@string/lottie_animation" />
     </application>
 
 </manifest>
